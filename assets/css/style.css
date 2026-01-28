@@ -1,20 +1,19 @@
-*
-{
+*{
   margin: 0;
-  padding: 0 ;
+  padding: 0;
   box-sizing: border-box ;
 }
 body
 {
-  background-color: aqua;
+  background-color: rgb(81, 178, 178);
 }
 .navbar
 {
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14 px 28 px;
-  border-radius: 14 px;
-  box-shadow: rgb(0,0, 0.8);
+  background: white;/*pour la couleur*/
+  display: flex; /*pour aligner de facon horizentale*/
+  align-items: center; /*pour centrer le tout en mm temps */
+  justify-content: space-between; /*cree des espace entre chaque flex*/
+  padding: 14px 28px; /* pour creer de l'espace en haut et en bas*/
+  border-radius: 14px; /*pour arrondir les bordures*/
+  box-shadow: 4px 8px rgb(0,0,0.8); /*pour creer un fond d'ombre*/
 }
