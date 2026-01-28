@@ -1,3 +1,20 @@
-h1{
-  color: rgba(98, 3, 3, 0.91);  
+*
+{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+body
+{
+  background-color: aqua;
+}
+.navbar
+{
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14 px 28 px;
+  border-radius: 14 px;
+  box-shadow: rgb(0,0, 0.8);
 }
